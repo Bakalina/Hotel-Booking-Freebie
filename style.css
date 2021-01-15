@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Mulish;
+    background: #F5FAFE;
+    color: #333333;
+}
+
+.container {
+    width: 1105px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* info panel */
+
+.info-panel .container {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.info-panel a {
+    font-style: normal;
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.info-panel a:nth-child(2),
+.info-panel a:last-child {
+    padding-left: 37px;
+    background-image: url(img/gift.png);
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+    line-height: 17px;
+    margin-left: auto;
+}
+
+.info-panel a:last-child {
+    background-image: url(img/star.png);
+    background-size: 17px 16px;
+    margin-left: 99px;
+}
+
+/* End info panel */
+
+/* Header styles */
+
+header .container {
+    display: flex;
+    height: 120px;
+    align-items: center;
+}
+
+header a:first-child {
+    font-family: "Luckiest Guy";
+    font-size: 24px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+    margin-right: 108px;
+}
+
+header a:first-child span {
+    color: #EC1F46;
+}
+
+header form button {
+    width: 65px;
+    height: 40px;
+    border-radius: 0px 6px 6px 0px;
+    border: 0;
+    background: #EC1F46 url(img/search.png) center no-repeat;
+    text-indent: -9999px;
+}
+
+header form input {
+    width: 285px;
+    height: 40px;
+    background: #F5FAFE;
+    border-radius: 6px 0 0 6px;
+    border: 0;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+header .container a:last-of-type {
+    margin-left: auto;
+}
+
+header .profile {
+    margin-left: 53px;
+}
+
+/* End header styles */
+
+nav {
+    background: #0A223D;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+nav a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
