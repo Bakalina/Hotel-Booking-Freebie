@@ -101,12 +101,59 @@ header form input {
 }
 
 header .container a:last-of-type {
+    width: 34px;
+    height: 34px;
     margin-left: auto;
-    
+    background: url(img/shopping-cart.png) bottom left no-repeat;
+    text-indent: -9999px;
+    position: relative;
+
+}
+
+header .container a:last-of-type span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 0;
+    background: #EC1F46;
+    color: #fff;
+    font-size: 13px;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
 }
 
 header .profile {
     margin-left: 53px;
+    display: flex;
+    align-items: center;
+}
+
+header .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    margin-right: 18px;
+}
+
+header .profile span {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+header .profile i {
+    text-indent: -9999px;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    width: 10px;
+    height: 10px;
+    margin-left: 24px;
+    transform: rotate(-45deg);
+    position: relative;
+    top: -3px;
 }
 
 /* End header styles */
