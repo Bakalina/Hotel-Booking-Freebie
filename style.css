@@ -244,7 +244,6 @@ nav a {
 .hotel-info__top p {
     font-size: 12px;
     line-height: 15px;
-    color: #333333;
     margin: 0;
 }
 
@@ -280,8 +279,9 @@ nav a {
     font-size: 10px;
 }
 
-.slider {
+.hotel-info__bottom .container {
     position: relative;
+    height: 450px;
 }
 
 .sliderGradient {
@@ -292,5 +292,14 @@ nav a {
     border-radius: 8px;
 }
 
+.map {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.map iframe {
+    border-radius: 10px;
+}
 
 /* End Hotel info */
