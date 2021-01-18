@@ -34,11 +34,6 @@ a:hover {
     font-style: normal;
     font-size: 10px;
     line-height: 13px;
-    /* identical to box height */
-
-
-    /* Gray 1 */
-
     color: #333333;
 }
 
@@ -61,6 +56,9 @@ a:hover {
 /* End info panel */
 
 /* Header styles */
+header {
+    background: #fff;
+}
 
 header .container {
     display: flex;
@@ -158,6 +156,8 @@ header .profile i {
 
 /* End header styles */
 
+/* nav style */
+
 nav {
     background: #0A223D;
 }
@@ -174,9 +174,20 @@ nav a {
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
-
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
+
+/* end nav style */
+.breadCrumb {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.breadCrumb .container p {
+    font-size: 10px;
+    color: #333333;
+}
+
+/* Bread Crumb */
