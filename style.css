@@ -248,7 +248,7 @@ nav a {
     margin: 0;
 }
 
- .userRattings {
+.userRattings {
     width: 65px;
     height: 45px;
     background: #EC1F46;
@@ -279,5 +279,18 @@ nav a {
 .userRattings p span {
     font-size: 10px;
 }
+
+.slider {
+    position: relative;
+}
+
+.sliderGradient {
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+    position: absolute;
+    width: 728px;
+    height: 450px;
+    border-radius: 8px;
+}
+
 
 /* End Hotel info */
