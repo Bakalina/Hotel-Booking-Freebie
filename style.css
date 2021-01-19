@@ -158,18 +158,18 @@ header .profile i {
 
 /* nav style */
 
-nav {
+.navbar {
     background: #0A223D;
 }
 
-nav .container {
+.navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
 }
 
-nav a {
+.navbar a {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -387,5 +387,127 @@ nav a {
     line-height: 19px;
 }
 
-
 /* End Hotel info */
+
+/* Cards Menu */
+
+.cardsMenu .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsMenu .container a {
+    margin: 68px 0 40px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 18px;
+}
+
+.cardsMenu .container a:hover {
+    border-bottom: 3px solid #EC1F46;
+    text-decoration: none;
+    color: #EC1F46;
+    padding-bottom: 15px;
+}
+
+/* End Cards Menu */
+
+/* Package Summery */
+
+.packageSummery .container {
+    position: relative;
+}
+
+.packageSummery .container h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+
+.textStyle p {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.circleCheck p {
+    background: url(img/circle-check-full.png) no-repeat;
+    padding-left: 39px;
+}
+
+.packageHighlights div:first-child {
+    width: 538px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #0A223D;
+    border-radius: 4px 4px 0px 0px;
+    text-indent: 24px;
+    line-height: 50px;
+}
+
+.packageHighlights div:last-child {
+    width: 538px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 8px 8px;
+    padding: 27px 24px 6px 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.packageHighlights p {
+    margin-bottom: 21px;
+}
+
+.offerDetails {
+    position: absolute;
+    top: 59px;
+    right: 0;
+}
+
+.offerDetails div:first-child {
+    width: 538px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #0A223D;
+    border-radius: 4px 4px 0px 0px;
+    text-indent: 24px;
+    line-height: 50px;
+}
+
+.offerDetails div:last-child {
+    width: 538px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 8px 8px;
+    padding: 29px 28px 18px 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.offerDetails p:first-child {
+    width: 215px;
+}
+
+.offerDetails p:last-child {
+    background: url(img/calendar.png) no-repeat;
+}
+
+.offerDetails span {
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+/* End Package Summery */
