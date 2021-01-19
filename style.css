@@ -417,6 +417,7 @@ header .profile i {
 
 .packageSummery .container {
     position: relative;
+    margin-bottom: 65px;
 }
 
 .packageSummery .container h2 {
@@ -510,7 +511,7 @@ header .profile i {
     font-style: italic;
 }
 
-.packageSummeryDetails div:first-child {
+.packageSummeryDetails__top {
     height: 50px;
     font-weight: bold;
     font-size: 14px;
@@ -523,10 +524,38 @@ header .profile i {
     margin-top: 33px;
 }
 
-.packageSummeryDetails div:last-child {
+.packageSummeryDetails__bootom {
     height: 500px;
     background: #FFFFFF;
     border-radius: 0px 0px 8px 8px;
+    padding: 38px 24px 0 24px;
+
+}
+
+
+.packageSummeryDetails__bootom h6 {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #EC1F46;
+    width: 353px;
+}
+
+.packageSummeryDetails__bootom p {
+    margin-top: 21px;
+}
+
+.packageCardTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.packageCardBootom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px dashed #E0E0E0;
+    margin-top: 44px;
+    padding-top: 33px;
 }
 
 /* End Package Summery */
