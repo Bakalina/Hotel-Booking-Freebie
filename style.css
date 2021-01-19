@@ -510,4 +510,23 @@ header .profile i {
     font-style: italic;
 }
 
+.packageSummeryDetails div:first-child {
+    height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #0A223D;
+    border-radius: 4px 4px 0px 0px;
+    text-indent: 24px;
+    line-height: 50px;
+    margin-top: 33px;
+}
+
+.packageSummeryDetails div:last-child {
+    height: 500px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 8px 8px;
+}
+
 /* End Package Summery */
