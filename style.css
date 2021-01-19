@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
-    margin: 0;
     font-family: Mulish;
     background: #F5FAFE;
     color: #333333;
@@ -296,10 +296,96 @@ nav a {
     position: absolute;
     bottom: 0;
     right: 0;
+    height: 213px;
 }
 
 .map iframe {
     border-radius: 10px;
 }
+
+.booking {
+    font-family: Nunito;
+}
+
+.container .booking {
+
+    width: 350px;
+    height: 210px;
+    background: #0A223D;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    padding: 33px 29px 0 26px;
+    margin: 0;
+}
+
+.price {
+    float: left;
+}
+
+.price p:nth-child(2) {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.price p:first-child {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.price p:last-child {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.personRoom {
+    float: right;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.personRoom p:first-child {
+    background: url(img/user.png) no-repeat;
+    padding-left: 20px;
+}
+
+.personRoom p:last-child {
+    background: url(img/home.png) no-repeat;
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+.callCenter {
+    clear: both;
+    padding: 9px 0 17px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.callCenter a {
+    background: url(img/phone-call.png) center no-repeat;
+    color: #fff;
+    padding-left: 85px;
+}
+
+.booking button {
+    width: 295px;
+    height: 45px;
+    background: #EC1F46;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
 
 /* End Hotel info */
