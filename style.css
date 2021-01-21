@@ -559,3 +559,17 @@ header .profile i {
 }
 
 /* End Package Summery */
+
+/* Other Packages */
+
+.tripCard .container h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/* End Other Packages */
