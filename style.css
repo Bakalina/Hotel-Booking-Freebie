@@ -24,21 +24,21 @@ a:hover {
 
 /* info panel */
 
-.info-panel .container {
+.infoPanel .container {
     display: flex;
     align-items: center;
     height: 60px;
 }
 
-.info-panel a {
+.infoPanel a {
     font-style: normal;
     font-size: 10px;
     line-height: 13px;
     color: #333333;
 }
 
-.info-panel a:nth-child(2),
-.info-panel a:last-child {
+.infoPanel a:nth-child(2),
+.infoPanel a:last-child {
     padding-left: 37px;
     background-image: url(img/gift.png);
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ a:hover {
     margin-left: auto;
 }
 
-.info-panel a:last-child {
+.infoPanel a:last-child {
     background-image: url(img/star.png);
     background-size: 17px 16px;
     margin-left: 99px;
@@ -195,7 +195,7 @@ header .profile i {
 
 /* Hotel info */
 
-.hotel-info__top .container {
+.hotelInfoTop .container {
     height: 100px;
     position: relative;
 }
@@ -217,7 +217,7 @@ header .profile i {
     margin-right: 0;
 }
 
-.hotel-info__top h2 {
+.hotelInfoTop h2 {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
@@ -241,7 +241,7 @@ header .profile i {
     left: 282px;
 }
 
-.hotel-info__top p {
+.hotelInfoTop p {
     font-size: 12px;
     line-height: 15px;
     margin: 0;
@@ -279,7 +279,7 @@ header .profile i {
     font-size: 10px;
 }
 
-.hotel-info__bottom .container {
+.hotelInfoBottom .container {
     position: relative;
     height: 450px;
 }
@@ -511,7 +511,7 @@ header .profile i {
     font-style: italic;
 }
 
-.packageSummeryDetails__top {
+.packageSummeryDetailsTop {
     height: 50px;
     font-weight: bold;
     font-size: 14px;
@@ -524,7 +524,7 @@ header .profile i {
     margin-top: 33px;
 }
 
-.packageSummeryDetails__bootom {
+.packageSummeryDetailsBootom {
     height: 500px;
     background: #FFFFFF;
     border-radius: 0px 0px 8px 8px;
@@ -533,7 +533,7 @@ header .profile i {
 }
 
 
-.packageSummeryDetails__bootom h6 {
+.packageSummeryDetailsBootom h6 {
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
@@ -541,7 +541,7 @@ header .profile i {
     width: 353px;
 }
 
-.packageSummeryDetails__bootom p {
+.packageSummeryDetailsBootom p {
     margin-top: 21px;
 }
 
