@@ -562,14 +562,101 @@ header .profile i {
 
 /* Other Packages */
 
+.tripCardBig {
+    display: flex;
+}
+
 .tripCard .container h2 {
     font-weight: bold;
     font-size: 36px;
     line-height: 45px;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+.tripCardBigInfo {
+    width: 364px;
+    height: 500px;
+    background: #0A223D;
+    color: #fff;
+    border-radius: 0px 8px 8px 0px;
+    position: relative;
+}
+
+.tripCardBigInfo p {
+    width: 299px;
+    font-size: 14px;
+    line-height: 160.6%;
+    margin-left: 44px;
+}
+
+.tripCardBigInfo h5 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0 0 27px 43px;
+}
+
+.tripCardBigInfo .star {
+    padding: 0;
+    margin: 46px 0 5px 43px;
 }
 
 
+.tripCardPersonRoom p:nth-last-child(5) {
+    font-size: 12px;
+    line-height: 15px;
+    background: url(img/map-pin.png) no-repeat;
+    padding-left: 28px;
+    margin-top: 55px;
+}
+
+.tripCardPersonRoom p:nth-last-child(4) {
+    font-size: 12px;
+    line-height: 15px;
+    background: url(img/user.png) no-repeat;
+    padding-left: 28px;
+    margin-top: 11px;
+}
+
+.tripCardPersonRoom p:nth-last-child(3) {
+    font-size: 12px;
+    line-height: 15px;
+    background: url(img/home.png) no-repeat;
+    padding-left: 28px;
+    margin-top: 11px;
+}
+
+.tripCardPersonRoom p:nth-last-child(2) {
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    margin-top: 24px;
+}
+
+.tripCardPersonRoom p:nth-last-child(1) {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.tripCardBigInfo button {
+    width: 120px;
+    height: 40px;
+    background: #EC1F46;
+    border-radius: 4px;
+    border: 0;
+    position: absolute;
+    right: 21px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+}
 
 /* End Other Packages */
