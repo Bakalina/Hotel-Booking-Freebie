@@ -562,8 +562,11 @@ header .profile i {
 
 /* Other Packages */
 
+
+
 .tripCardBig {
     display: flex;
+    margin-bottom: 30px;
 }
 
 .tripCard .container h2 {
@@ -575,7 +578,13 @@ header .profile i {
     margin-bottom: 65px;
 }
 
-.tripCardBigInfo {
+.card { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tripCardInfo {
     width: 364px;
     height: 500px;
     background: #0A223D;
@@ -584,21 +593,21 @@ header .profile i {
     position: relative;
 }
 
-.tripCardBigInfo p {
+.tripCardInfo p {
     width: 299px;
     font-size: 14px;
     line-height: 160.6%;
     margin-left: 44px;
 }
 
-.tripCardBigInfo h5 {
+.tripCardInfo h5 {
     font-weight: bold;
     font-size: 18px;
     line-height: 23px;
     margin: 0 0 27px 43px;
 }
 
-.tripCardBigInfo .star {
+.tripCardInfo .star {
     padding: 0;
     margin: 46px 0 5px 43px;
 }
@@ -642,7 +651,7 @@ header .profile i {
     margin-top: 5px;
 }
 
-.tripCardBigInfo button {
+.tripCardInfo button {
     width: 120px;
     height: 40px;
     background: #EC1F46;
@@ -652,11 +661,54 @@ header .profile i {
     right: 21px;
     bottom: 30px;
     text-align: center;
-    line-height: 40px;
+    line-height: 38px;
     font-family: Nunito;
     font-weight: 600;
     font-size: 14px;
     color: #FFFFFF;
 }
 
+.tripCardBigImg {
+    border-radius: 8px 0px 0px 8px;
+    position: relative;
+}
+
+.tripCardFlashOffer {
+    background: #EC1F46;
+    border-radius: 0px 4px 4px 0px;
+    width: 95px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    top: 26px;
+}
+
+.tripCardSmall .tripCardInfo {
+    width: 350px;
+    border-radius: 8px;
+}
+
+.tripCardSmall .tripCardFlashOffer {
+    width: 60px;
+    height: 18px;
+    font-size: 8px;
+    line-height: 18px;
+}
+
+.tripCardSmall .tripCardPersonRoom p:nth-last-child(5) {
+    margin-top: 23px;
+}
+
+.tripCardSmall .tripCardInfo h5 {
+    margin-top: 30px;
+}
+
+.tripCardSmall .tripCardInfo button {
+    position: absolute;
+    bottom: 25px;
+}
 /* End Other Packages */
