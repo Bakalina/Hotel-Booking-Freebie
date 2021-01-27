@@ -651,7 +651,7 @@ header .profile i {
     margin-top: 5px;
 }
 
-.tripCardInfo button {
+.tripCardButton button {
     width: 120px;
     height: 40px;
     background: #EC1F46;
@@ -707,7 +707,7 @@ header .profile i {
     margin-top: 30px;
 }
 
-.tripCardSmall .tripCardInfo button {
+.tripCardSmall .tripCardButton button {
     position: absolute;
     bottom: 25px;
 }
@@ -907,6 +907,45 @@ header .profile i {
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+    margin-top: 143px;
+    padding-left: 27px;
+    position: absolute;
+}
+
+.activitiesGroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activitiesGroup div {
+    width: 255px;
+    height: 255px;
+    border-radius: 6px;
+    margin-top: 57px;
+    position: relative;
+
+}
+
+.activitiesGroup button {
+    position: absolute;
+    top: 201px;
+    left: 26px;
+    width: 100px;
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+}
+
+.activitiesGroup img {
+    position: absolute;
+}
+
+.activitiesGroup span {
+    width: 255px;
+    height: 255px;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+    border-radius: 6px;
+    position: absolute;
 }
 
 /* End Activities */
