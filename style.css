@@ -79,7 +79,7 @@ header a:first-child span {
     color: #EC1F46;
 }
 
-header form button {
+.inputButton button {
     width: 65px;
     height: 40px;
     border-radius: 0px 6px 6px 0px;
@@ -88,7 +88,7 @@ header form button {
     text-indent: -9999px;
 }
 
-header form input {
+.inputButton input {
     width: 285px;
     height: 40px;
     background: #F5FAFE;
@@ -818,6 +818,74 @@ header .profile i {
     padding: 4px 0 0 27px;
 }
 
-
-
 /* End Guest Review */
+
+/* Newsletter */
+
+.newsletter {
+    margin-top: 70px;
+    position: relative;
+}
+
+.newsletterImage {
+    background: rgba(10, 34, 61, 0.8);
+    position: absolute;
+    height: 260px;
+    width: 100%;
+}
+
+.newsletter .container {
+    color: #FFFFFF;
+    position: relative;
+}
+
+.newsletter .container p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    position: absolute;
+    top: 98px;
+    left: 187px;
+}
+
+.newsletter .container h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 128px;
+    left: 187px;
+}
+
+.newsletterInput {
+    position: absolute;
+    top: 108px;
+    right: 187px;
+}
+
+.newsletterInput input {
+    width: 285px;
+    height: 55px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #BDBDBD;
+    padding-left: 33px;
+    border-radius: 4px 0 0 4px;
+    border: 0;
+}
+
+.newsletterInput button {
+    width: 65px;
+    height: 55px;
+    background: #EC1F46;
+    border-radius: 0px 4px 4px 0px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+/* End Newsletter */
