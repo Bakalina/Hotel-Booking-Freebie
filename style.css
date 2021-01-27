@@ -949,3 +949,13 @@ header .profile i {
 }
 
 /* End Activities */
+
+/* Footer */
+
+footer {
+    height: 900px;
+    background: #0A223D;
+    margin-top: 98px;
+}
+
+/* End Footer */
