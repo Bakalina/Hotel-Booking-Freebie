@@ -1011,15 +1011,16 @@ footer {
     line-height: 23px;
     text-transform: uppercase;
     color: #FFFFFF;
-    
+
 }
+
 .footerToopSocial {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
 }
 
-.footerToopSocial a{
+.footerToopSocial a {
     display: block;
     margin-left: 10px;
 }
@@ -1037,7 +1038,7 @@ footer {
     height: 24px;
     background: url(img/yout.png) no-repeat;
     text-indent: -9999px;
-   
+
 }
 
 .footerToopSocial a:nth-of-type(3) {
@@ -1045,6 +1046,49 @@ footer {
     height: 24px;
     background: url(img/inst.png) no-repeat;
     text-indent: -9999px;
+}
+
+.footerContact {
+    margin-top: 89px;
+}
+
+
+.foterContactDetails h5 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+.foterContactDetails p, a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #BDBDBD;
+    display: block;
+}
+
+.container .footerContact a {
+    padding-left: 41px;
+}
+
+.container .footerContact a:nth-of-type(1) {
+    background: url(img/map.png) no-repeat;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.container .footerContact a:nth-of-type(2) {
+    background: url(img/call.png) no-repeat;
+    background-size: 20px 20px;
+}
+
+.container .footerContact a:nth-of-type(5) {
+    background: url(img/mail.png) no-repeat;
+    margin-top: 28px;
+    background-size: 18px 18px;
 }
 
 /* End Footer */
