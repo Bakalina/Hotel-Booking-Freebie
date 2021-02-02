@@ -958,4 +958,83 @@ footer {
     margin-top: 98px;
 }
 
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerTopLogo {
+    width: 166px;
+    padding-top: 139px;
+}
+
+.footerTopLogo a {
+    font-family: "Luckiest Guy";
+    font-size: 64px;
+    line-height: 64px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerTopLogo a span {
+    color: #EC1F46;
+}
+
+.footerTop h5 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 108px;
+}
+
+.footerTop ul {
+    padding-left: 0;
+}
+
+.footerTop li {
+    list-style-type: none;
+    margin-top: 2px;
+}
+
+.footerTop li a {
+    font-size: 14px;
+    line-height: 160%;
+    color: #BDBDBD;
+
+}
+
+.footerTop p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.footerToopSocial {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerToopSocial a{
+    display: block;
+}
+
+.footerToopSocial a:nth-of-type(1) {
+    background: url(img/facebook.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.footerToopSocial a:nth-of-type(2) {
+    background: url(img/yout.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.footerToopSocial a:nth-of-type(3) {
+    background: url(img/inst.png) no-repeat;
+    text-indent: -9999px;
+}
+
 /* End Footer */
