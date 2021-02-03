@@ -1153,4 +1153,23 @@ a {
     margin-left: 282px;
 }
 
+.footerBottom {
+    margin-top: 92px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.footerBottom img {
+    position: absolute;
+    right: 0;
+}
+
+.container .footerBottom a {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+
 /* End Footer */
