@@ -731,7 +731,6 @@ header .profile i {
 }
 
 .guestReviewArrov i:first-child {
-    text-indent: -9999px;
     border-left: 2px solid #828282;
     border-bottom: 2px solid #828282;
     width: 14px;
@@ -743,7 +742,6 @@ header .profile i {
 }
 
 .guestReviewArrov i:last-child {
-    text-indent: -9999px;
     border-left: 2px solid #828282;
     border-bottom: 2px solid #828282;
     width: 14px;
