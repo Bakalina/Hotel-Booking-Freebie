@@ -22,6 +22,10 @@ a:hover {
     text-decoration: underline;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* info panel */
 
 .infoPanel .container {
@@ -116,6 +120,7 @@ header .container a:last-of-type span {
     background: #EC1F46;
     color: #fff;
     font-size: 13px;
+    line-height: 20px;
     text-indent: 0;
     position: absolute;
     top: 0;
@@ -127,6 +132,10 @@ header .profile {
     margin-left: 53px;
     display: flex;
     align-items: center;
+}
+
+header .profile:hover {
+    cursor: pointer;
 }
 
 header .profile img {
@@ -716,6 +725,10 @@ header .profile i {
 
 /* Guest Review */
 
+.guestReviewArrov i:hover {
+    cursor: pointer;
+}
+
 .guestReviewArrov i:first-child {
     text-indent: -9999px;
     border-left: 2px solid #828282;
@@ -1142,6 +1155,11 @@ a {
     font-weight: bold;
     color: #FFFFFF;
     margin-top: 22px;
+
+}
+
+.foterContactForm input:nth-of-type(3):hover {
+    cursor: pointer;
 }
 
 .foterContactForm span {
