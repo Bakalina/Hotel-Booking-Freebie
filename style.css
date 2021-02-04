@@ -62,6 +62,7 @@ button:hover {
 /* Header styles */
 header {
     background: #fff;
+    min-width: 1105px;
 }
 
 header .container {
@@ -169,6 +170,7 @@ header .profile i {
 
 .navbar {
     background: #0A223D;
+    min-width: 1105px;
 }
 
 .navbar .container {
@@ -838,6 +840,7 @@ header .profile i {
     height: 260px;
     margin-top: 70px;
     position: relative;
+    min-width: 1105px;
 }
 
 .newsletterImage {
@@ -967,6 +970,7 @@ footer {
     height: 900px;
     background: #0A223D;
     margin-top: 98px;
+    min-width: 1105px;
 }
 
 .footerTop {
