@@ -69,6 +69,7 @@ header .container {
     display: flex;
     height: 120px;
     align-items: center;
+    overflow: hidden;
 }
 
 header a:first-child {
@@ -848,11 +849,13 @@ header .profile i {
     position: absolute;
     height: 260px;
     width: 100%;
+    overflow: hidden;
 }
 
 .newsletter .container {
     color: #FFFFFF;
     position: relative;
+
 }
 
 .newsletter .container p {
