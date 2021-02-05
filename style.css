@@ -134,6 +134,7 @@ header .profile {
     margin-left: 53px;
     display: flex;
     align-items: center;
+    padding-right: 3px;
 }
 
 header .profile:hover {
